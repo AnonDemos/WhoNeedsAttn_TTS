@@ -1,0 +1,58 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+.main-content {
+  max-width: 100rem;
+}
+
+.main-content table {
+  table-layout: fixed;
+  background-color: transparent;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.main-content table th,
+.main-content table td {
+  background-color: transparent;
+  padding: 8px 10px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.main-content table th {
+  font-weight: 600;
+  height: 36px;
+}
+
+.main-content table td:first-child,
+.main-content table th:first-child {
+  width: 3rem;
+}
+
+.main-content table td.text-cell {
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.main-content table tr {
+  background-color: transparent;
+}
+
+.main-content table tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+audio {
+  width: 200px;
+  height: 32px;
+}
+
+footer {
+  display: none !important;
+}
